@@ -1,0 +1,38 @@
+/*
+ColorPicker
+Copyright (C) Simon Raichl 2018
+MIT License
+Use this as you want, share it as you want, do basically whatever you want with this :)
+*/
+
+body{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font: 2.1rem Segoe UI, Verdana;
+    color: #fff;
+    background: #000;
+}
+
+h1{
+    text-shadow: 2px 2px 4px #000;
+    opacity: .7;
+    padding: 48px;
+}
+
+div{
+    width: 100%;
+}
+
+.none{
+    display: none;
+}
+
+.default, h1.default{
+    cursor: default;
+    width: auto;
+}
