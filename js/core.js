@@ -19,8 +19,8 @@ export default class ColorPicker{
             let code = document.getElementById("color-code");
             !this.picked ? (() => {this.picked = true; code.parentElement.classList.add("default")})() : null;
             code.innerHTML = e.target.value;
-            document.body.style.background = e.target.value;
-            code.innerHTML += "<br>" + document.body.style.background;
+            document.body.style.backgroundColor = e.target.value;
+            code.innerHTML += "<br>" + document.body.style.backgroundColor;
         });
     }
 }
